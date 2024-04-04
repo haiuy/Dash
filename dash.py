@@ -1,5 +1,5 @@
 import pandas as pd
-url=f"hcomparison.csv"
+url=f"comparison.csv"
 dataframe=pd.read_csv(url)
 dataframe
 from dash import Dash, html, dcc, callback, Output, Input
